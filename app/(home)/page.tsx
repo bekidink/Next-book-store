@@ -6,11 +6,11 @@ import TopSellers from "@/components/home/TopSeller";
 export default async function Home() {
   
   return (
-    <>
+    <section className="">
       <Banner />
       {/* <TopSellers />
       <Recommened />
       <News /> */}
-    </>
+    </section>
   );
 }
